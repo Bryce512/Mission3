@@ -78,7 +78,7 @@ internal class Program
             Console.Write("What is the Category of the item? ");
             category = Console.ReadLine().ToUpper();
             Console.Write("What is the Quantity of the item? ");
-            quantity = int.Parse(Console.ReadLine());
+            quantity = Math.Abs(int.Parse(Console.ReadLine()));
             Console.Write("What is the Expiration Date (MM/DD/YYYY) of the item? ");
             expireDate = DateTime.Parse(Console.ReadLine());
             Console.WriteLine("");
