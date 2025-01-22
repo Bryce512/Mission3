@@ -2,13 +2,13 @@ namespace Mission3;
 
 public class FoodItem
 {
-    // CONSTRUCTOR
     public string Name;
     public string Category;
     public int Quantity;
-    public string ExpireDate;
+    public DateTime ExpireDate;
 
-    public FoodItem(string name,string category, int quantity,string expireDate)
+    // CONSTRUCTOR
+    public FoodItem(string name, string category, int quantity,DateTime expireDate)
     {
         Name = name;
         Category = category;
