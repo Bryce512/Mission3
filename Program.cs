@@ -34,6 +34,6 @@ public void handleRequest(string option)
 // PRINT CURRENT LIST ITEMS
 
 
-// EXIT PROGRAM
+// EXIT PROGRA
 
 item = new FoodItem(name, category, quantity, expireDate);
